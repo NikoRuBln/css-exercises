@@ -1,0 +1,20 @@
+*{
+    font-family: "Verdana", "DejaVu Sans",  sans-serif; 
+}
+
+.red{
+    background-color: rgb(194, 98, 98);
+}
+#two{
+    color:blue;
+    font-size: large;
+}
+.three{
+    font-size: larger;
+}
+#four{
+    font-weight:700;
+    background-color:lightgreen;
+    font-size: 25px;
+
+}
