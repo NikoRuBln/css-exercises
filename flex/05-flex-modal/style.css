@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
+  
   margin: 0;
   background: #aaa;
   color: #333;
@@ -16,6 +17,7 @@ body {
 }
 
 .modal {
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -33,6 +35,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -46,6 +49,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: flex-start;
+
 }
 
 button {
@@ -63,4 +68,31 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.top{
+  display: flex;
+  gap: 30px;
+}
+.bottom {
+  padding-left: 60px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  justify-content: flex-start;
+}
+.buttons {
+  padding-left: 60px;
+}
+.header {
+  display: flex;
+  width:400px;
+  font-weight: 700;
+  font-size:18px;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  align-items:center;
+}
+.text {
+  margin-bottom: 16px;
 }
