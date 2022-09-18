@@ -1,28 +1,77 @@
 body {
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  padding-left:50px;
   height: 72px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  align-self:bottom;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  display:flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  padding-left: 15px;
+  justify-content: flex-start;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  height:300px;
+  width: 300px;
+  padding: 20px;
+
+
+}
+.main {
+  display: flex;
+  min-height: 100vh;
+  flex-grow:1;
+}
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1;
+  padding: 50px 50px 50px 50px;
+  gap: 50px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.first, .second{
+  display:flex;
+  gap: 50px;
+
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 15px;
+}
+a:link{
+  color:white;
+  text-decoration: none;
 }
